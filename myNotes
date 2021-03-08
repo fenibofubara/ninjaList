@@ -1,0 +1,9 @@
+1. Static site generation: Nextjs generates html and js static sites on the server and sends the pages into it into the browser on request. Making the page delivery superfaster
+
+2. sfc = stateless functional component
+3. Everything dynamic is placed in a {}
+context is a more advanced way of passing data from parents to child instead of using props
+
+5. Next prebuilds each pages that the app must render on the server side. For next to know the number of pages to prebuild at runtime, we use functions like getStaticPaths to tell next the number of pages to build as static sites on server.
+
+7. The job of next is to build static html pages and js bundles
